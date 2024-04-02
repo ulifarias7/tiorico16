@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  
+    background-image: url('img/Imagen de WhatsApp 2024-03-29 a las 14.32.44_39ace723.jpg');
+    background-size: contain; /* para que la imagen de fondo cubra todo el cuerpo */
+    background-position: center; /* para centrar la imagen de fondo */
+  
+  
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 2rem 0;
+  
+}
+.logo img{
+  width: 14rem;
+}
+
+.main-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.main-title p {
+  margin: 0; 
+  font-size: 35px; /* Reducimos el tamaño de fuente */
+  letter-spacing: -1px; /* Ajustamos el espaciado entre letras */
+}
+
+.main-title p:first-child {
+  color: white;
+}
+
+.main-title p:last-child {
+  color: #c0790e; 
+}
+
+.whatsapp{
+  margin: 3rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.6em 1.3em;
+  display: flex;
+  gap: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px; /* Reducimos el tamaño de fuente */
+  background-color: #010101;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 105, 18);
+  color: aliceblue;
+  box-shadow: 0 0 25px rgb(206, 113, 26),
+              0 0 25px rgb(199, 124, 19),
+              0 0 5px rgb(201, 130, 24) inset;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgb(245, 214, 37),
+              0 0 30px rgb(245, 196, 37),
+              0 0 10px rgb(249, 220, 35) inset;
+}
+
+.button img{
+  width: 30px;
+}
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(226, 127, 40);
+}
+
+.info p{
+  font-size: 18px; /* Reducimos el tamaño de fuente */
+  color: white;
+}
+
+.info h3{
+  font-size: 28px; /* Reducimos el tamaño de fuente */
+  text-align: center;
+}
